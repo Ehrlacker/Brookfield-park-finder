@@ -1,0 +1,15 @@
+
+.Search {
+  background-color: rgb(235, 222, 202);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+.parks-list{
+    max-width: 100%;
+    background-color: rgb(235, 222, 202);
+    margin: 10rem 0 10rem 0;
+  
+  }

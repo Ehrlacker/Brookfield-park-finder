@@ -5,27 +5,37 @@ import "./Park.css"
 const Park = (props) => {
   return (
     <li
-      className="Park sm:flex flex-col md:flex-row items-center m-8 p-8 justify-center hover:bg-zinc-200"
+      className="Park flex flex-col m-8 items-center hover:bg-zinc-200"
       id={props.id}
     >
       <img className="park-image" src={props.image} alt="Nationa Park" />
-      <div className="park-info-container">
-      <button className="favoriteButton" onClick={props.addFavPark}>{props.icon}</button>
+
+      <div className="park-info-container pl-8 pr-8 pb-8 pt-4">
+        <button className="favoriteButton" onClick={props.addFavPark}>
+          {props.icon}
+        </button>
         <h1 className="park-title mb-1 font-bold sm:mt-8">{props.name}</h1>
 
         <div className="park-address mt-8 mb-8">
-          <p className="font-bold">Address:</p>
-          <p className="address-title">{props.address}</p>
+          <p className="font-bold">Location:</p>
+
           <p>{props.city}</p>
-          <p>{props.stateCode}</p>
-          <p>{props.postalCode}</p>
         </div>
         <div>
-          <p className="font-bold">Description:</p>
-          <p className="park-description">{props.description}</p>
+          <p className="description-title font-bold ">Description:</p>
+          <p className="park-description ">{props.description}</p>
+          <button className="park-button mt-4">
+            <a rel="noreferrer" target="_blank" href={props.details}>
+              Details
+            </a>
+          </button>
         </div>
       </div>
     </li>
   )
 }
 export default Park
+
+// md:flex-row
+// p-8
+// justify-center

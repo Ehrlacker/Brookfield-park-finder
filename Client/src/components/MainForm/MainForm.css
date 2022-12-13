@@ -7,19 +7,31 @@
   
   .form-input-and-button-container{
 margin-top: 2rem;
+background-color: white;
+border-radius: 5rem;
   }
 
 
   .main-label{
-    font-size: 29px;
+    font-size: 8rem;
     text-align: center;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+  
+  }
+
+  .main-form-description{
+    max-width: 70rem;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.25rem;
+    text-align: center;
   }
   .main-input{
     outline: none;
     font-size: 29px;
-    color: white;
-    background: rgba(198, 198, 198, 0.81);
+    /* color: rgb(116, 105, 89); */
+    background: white;
+    font-family: 'ubuntu', sans-serif;
   }
   
   .main-input::placeholder{
@@ -28,7 +40,8 @@ margin-top: 2rem;
   
   .main-button{
     /* background-color: #8AEFF5; */
-    background-color:#67e8f9;
+    /* background-color: rgb(145, 235, 157); */
+    background-color: white;
     font-size: 29px;
     width: 120px;
   }

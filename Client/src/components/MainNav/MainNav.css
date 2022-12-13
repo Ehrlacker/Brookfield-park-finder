@@ -1,12 +1,18 @@
-
-.MainNav{
-    max-width: 25rem;
-   
+.MainNav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  margin-top: 0.5rem;
+  max-height: 8rem;
+}
+.nav-list {
+  max-width: 25rem;
 }
 
-.main-nav-item{
-    max-width: 10rem;
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 1.25rem;
-    margin: 1rem;
+.main-nav-item {
+  max-width: 10rem;
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.75rem;
+  margin-left: 1rem;
 }

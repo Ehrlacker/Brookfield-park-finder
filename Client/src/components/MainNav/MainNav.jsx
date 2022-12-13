@@ -1,14 +1,20 @@
+import {Link} from "react-router-dom"
 import './MainNav.css'
-import { Link } from "react-router-dom";
+import MainTitle from '../MainTitle/MainTitle'
+
+
 
 
 const MainNav=()=>{
 return(
-    <ul className="MainNav flex justify-between align-center">
-        <li className="main-nav-item text-white"><Link to="/Favorites">Favorites</Link></li>
-        <li className="main-nav-item text-white">Visited</li>
+    <div className="MainNav flex align-center justify-between  ">
+    <ul className="nav-list flex justify-between align-center">
+        <li className="main-nav-item text-white"><Link to="/Search">Parks</Link></li>    
+        
+            
  </ul>
-
+ <MainTitle />
+</div>
 
 )
     

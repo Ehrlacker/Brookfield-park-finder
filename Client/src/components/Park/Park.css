@@ -1,42 +1,63 @@
+.Park {
+  max-width: 40rem;
+
+  background-color: white;
+
+  transition: transform 0.2s;
+}
+
+.Park:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.park-info-container {
+  position: relative;
+}
+
+.park-image {
+  height: 25rem;
+
+  width: 100%;
+}
+
+.park-title {
+  color: #283124;
+  font-size: 1.3rem;
+}
+
+.description-title, .park-description {
+  font-family: "ubuntu", sans-serif;
+}
 
 
-.Park{
-  width: 50rem;
-   
-    background-color: white;
-    border-radius: 3rem; 
-   transition: transform 0.2s;
-    
+.favoriteButton {
+  position: absolute;
+  left: 92%;
+}
+
+.park-button {
+  border: solid black 3px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .park-description,
+  .description-title {
+    display: none;
+  }
+  .park-image {
+    height: 12rem;
+    width: 100%;
   }
 
-  .Park:hover{
-    transform:scale(1.1)
+  .park-button {
+    margin-top: 0;
   }
 
-  .park:hover{
-    cursor: pointer;
-    transform: scale(1.1)
+  .park-address {
+    margin: 1rem 0 1rem 0;
   }
-  
-  .park-info-container{
-    margin-left: 1rem;
-    position: relative;
-  }
-
-  .park-image{
-      border-radius: 3rem;
-      height: 15rem;
-      width: 15rem;
-  }
-
-  .park-title{
-
-    color: #283124;
-font-size: 1.3rem;
-
-  }
-
-  .favoriteButton{
-    position: absolute;
-    left: 95%;
-  }
+}
