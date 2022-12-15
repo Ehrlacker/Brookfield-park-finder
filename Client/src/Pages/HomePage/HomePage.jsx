@@ -13,7 +13,7 @@ const HomePage = () => {
       <MainPageBackground />
       <HomePageDescription />
 
-      <div className="home-page-directions-container sm:flex justify-center items-center flex-col ">
+      {/* <div className="home-page-directions-container"> */}
         <HomePageDirections
           image={Canyon}
           title={"Find Your Park"}
@@ -29,7 +29,7 @@ const HomePage = () => {
           }
         />
       </div>
-    </div>
+    // </div>
   )
 }
 export default HomePage

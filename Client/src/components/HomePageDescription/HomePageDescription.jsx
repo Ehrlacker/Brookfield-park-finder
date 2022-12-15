@@ -4,13 +4,16 @@ import './HomePageDescription.css'
 const HomePageDescription = () => {
   return (
     <div className="HomePageDescription">
-      America’s national parks are as unique and varied as the people who love
+      America’s national parks are as unique as the people who visit
       <br/>
-      them. They are places where people find their serenity, their moments, and
+      them. They have so much to offer and are a place where you can
       <br/>
-      their adventures. There are lots of ways to experience the parks, no
+       find peace, create new memories and connect with the natural world.
+      
       <br/>
-      matter where you are. What’s your park? Time to find out.
+       There's many adventures to discover.
+      <br/>
+       Are you ready for your next park adventure? Time to find out.
     </div>
   )
 }

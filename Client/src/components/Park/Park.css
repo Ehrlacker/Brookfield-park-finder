@@ -1,23 +1,17 @@
 .Park {
-  max-width: 40rem;
-
-  background-color: white;
-
+  /* min-width: 40rem; */
+  /* max-width: 40rem; */
+  /* background-color: white; */
   transition: transform 0.2s;
 }
 
-.Park:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
 
 .park-info-container {
-  position: relative;
+  /* position: relative; */
 }
 
 .park-image {
   height: 25rem;
-
   width: 100%;
 }
 
@@ -44,6 +38,8 @@
 }
 
 @media (max-width: 575px) {
+
+
   .park-description,
   .description-title {
     display: none;

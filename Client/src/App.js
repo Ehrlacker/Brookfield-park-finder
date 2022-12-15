@@ -13,10 +13,8 @@ import Search from './Pages/Search/Search'
 const App = () => {
   return (
     <Routes>
-    <Route path="/" element={ <HomePage />}>
-     </Route>
-     <Route path="/Search" element={ <Search />}>
-     </Route>
+    <Route path="/" element={ <HomePage />} />
+     <Route path="/Search" element={ <Search />} />
       </Routes>
   )
 }

@@ -4,13 +4,16 @@ import "./Park.css"
 
 const Park = (props) => {
   return (
-    <li
-      className="Park flex flex-col m-8 items-center hover:bg-zinc-200"
+
+    
+    <li 
+      className="Park bg-white hover:scale-105 cursor-pointer flex-none w-2/3 flex-col m-8 items-center hover:bg-zinc-200
+      md:w-2/3 lg:w-[640px]"
       id={props.id}
     >
       <img className="park-image" src={props.image} alt="Nationa Park" />
 
-      <div className="park-info-container pl-8 pr-8 pb-8 pt-4">
+      <div className="park-info-container relative pl-8 pr-8 pb-8 pt-4">
         <button className="favoriteButton" onClick={props.addFavPark}>
           {props.icon}
         </button>
@@ -32,6 +35,7 @@ const Park = (props) => {
         </div>
       </div>
     </li>
+    
   )
 }
 export default Park
