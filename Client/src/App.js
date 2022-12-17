@@ -1,13 +1,6 @@
-// import React, { useState } from "react"
-// import Axios from "axios"
-// import Park from './components/Park/Park'
-// import MainForm from './components/MainForm/MainForm'
-// import { BookmarkIcon } from '@heroicons/react/24/solid'
 import {Route, Routes} from 'react-router-dom'
-
-import HomePage from "./Pages/HomePage/HomePage"
-import Search from './Pages/Search/Search'
-
+import HomePage from "./pages/HomePage/HomePage"
+import Search from './pages/Search/Search'
 
 
 const App = () => {

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react"
 
- const AddFavoriteButton = (props) => {
+const AddFavoriteButton = (props) => {
   return (
-    <button className="favoriteButton" onClick={props.addFavPark}>{props.icon}</button>
+    <button className="favoriteButton" onClick={props.addFavPark}>
+      {props.icon}
+    </button>
   )
 }
 
 export default AddFavoriteButton
-

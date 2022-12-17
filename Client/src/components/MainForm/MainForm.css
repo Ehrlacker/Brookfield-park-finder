@@ -1,51 +1,40 @@
-
-
-.main-form{
+.main-form {
   width: 100%;
-  
-  }
-  
-  .form-input-and-button-container{
-margin-top: 2rem;
-background-color: white;
-border-radius: 5rem;
-  }
+}
 
+.form-input-and-button-container {
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 5rem;
+}
 
-  .main-label{
-    font-size: 8rem;
-    text-align: center;
-    font-family: 'ubuntu', sans-serif;
-    font-weight: bold;
-  
-  }
+.main-label {
+  font-size: 8rem;
+  text-align: center;
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+}
 
-  .main-form-description{
-    max-width: 70rem;
-    font-family: 'ubuntu', sans-serif;
-    font-size: 2.25rem;
-    text-align: center;
-  }
-  .main-input{
-    outline: none;
-    font-size: 29px;
-    /* color: rgb(116, 105, 89); */
-    background: white;
-    font-family: 'ubuntu', sans-serif;
-  }
-  
-  .main-input::placeholder{
-    color: #4A4949;
-  }
-  
-  .main-button{
-    /* background-color: #8AEFF5; */
-    /* background-color: rgb(145, 235, 157); */
-    background-color: white;
-    font-size: 29px;
-    width: 120px;
-  }
+.main-form-description {
+  max-width: 70rem;
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.25rem;
+  text-align: center;
+}
+.main-input {
+  outline: none;
+  font-size: 29px;
 
+  background: white;
+  font-family: "ubuntu", sans-serif;
+}
 
+.main-input::placeholder {
+  color: #4a4949;
+}
 
-  
+.main-button {
+  background-color: white;
+  font-size: 29px;
+  width: 120px;
+}

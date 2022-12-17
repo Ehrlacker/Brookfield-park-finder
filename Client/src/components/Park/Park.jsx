@@ -4,9 +4,7 @@ import "./Park.css"
 
 const Park = (props) => {
   return (
-
-    
-    <li 
+    <li
       className="Park bg-white hover:scale-105 cursor-pointer flex-none w-2/3 flex-col m-8 items-center hover:bg-zinc-200
       md:w-2/3 lg:w-[640px]"
       id={props.id}
@@ -35,11 +33,7 @@ const Park = (props) => {
         </div>
       </div>
     </li>
-    
   )
 }
 export default Park
 
-// md:flex-row
-// p-8
-// justify-center

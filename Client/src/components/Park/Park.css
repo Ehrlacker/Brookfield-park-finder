@@ -1,13 +1,5 @@
 .Park {
-  /* min-width: 40rem; */
-  /* max-width: 40rem; */
-  /* background-color: white; */
   transition: transform 0.2s;
-}
-
-
-.park-info-container {
-  /* position: relative; */
 }
 
 .park-image {
@@ -20,10 +12,10 @@
   font-size: 1.3rem;
 }
 
-.description-title, .park-description {
+.description-title,
+.park-description {
   font-family: "ubuntu", sans-serif;
 }
-
 
 .favoriteButton {
   position: absolute;
@@ -38,8 +30,6 @@
 }
 
 @media (max-width: 575px) {
-
-
   .park-description,
   .description-title {
     display: none;
