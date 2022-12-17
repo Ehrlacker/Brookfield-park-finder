@@ -2,7 +2,7 @@
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 99;
   margin-top: 0.5rem;
   max-height: 8rem;
 }
