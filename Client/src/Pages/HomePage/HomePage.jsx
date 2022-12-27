@@ -3,8 +3,8 @@ import Nav from "../../components/Nav/Nav"
 import HomePageDescription from "../../components/HomePageDescription/HomePageDescription"
 import "./HomePage.css"
 import HomePageDirections from "../../components/HomePageDirections/HomePageDirections"
-import Canyon from "../../assets/images/Canyon.jpg"
-import Trail from "../../assets/images/ParkTrail.jpg"
+import Canyon from "../../Assets/Images/Canyon.jpg"
+import Trail from "../../Assets/Images/ParkTrail.jpg"
 
 const HomePage = () => {
   return (
