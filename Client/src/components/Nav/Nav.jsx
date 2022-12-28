@@ -4,10 +4,10 @@ import MainTitle from "../MainTitle/MainTitle"
 
 const Nav = () => {
   return (
-    <div className="Nav flex align-center justify-between  ">
+    <div className="Nav flex items-center justify-between  ">
       <ul className="nav-list flex justify-between align-center">
-        <li className="main-nav-item text-white">
-          <Link to="/Search">Parks</Link>
+        <li className="main-nav-item text-white font-bold text-xl md:text-6xl">
+          <Link to="/Search">Find Parks</Link>
         </li>
       </ul>
       <MainTitle />

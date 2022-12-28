@@ -16,7 +16,6 @@ const MainPageBackground = () => {
         loop
       />
       <div className="overlay"></div>
-
       <div className="MainPageBackground-text">
         <p className="find">Find Your Next Adventure</p>
         <p className="here">

@@ -3,7 +3,7 @@ import "./HomePageDescription.css"
 
 const HomePageDescription = () => {
   return (
-    <div className="HomePageDescription w-full text-white ">
+    <div className="HomePageDescription w-full text-white text-center">
       America’s national parks are as unique as the people who visit
       <br />
       them. They have so much to offer and are a place where you can

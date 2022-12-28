@@ -46,6 +46,10 @@
 @media (max-width: 575px) {
   .MainPageBackground-text {
     top: 35%;
-    line-height: 4rem;
+    line-height: 5rem;
+  }
+
+  .here {
+    margin-top: 1rem;
   }
 }

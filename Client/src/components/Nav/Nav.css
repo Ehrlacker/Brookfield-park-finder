@@ -3,7 +3,7 @@
   position: absolute;
   top: 0;
   z-index: 99;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   max-height: 8rem;
 }
 .nav-list {
@@ -11,8 +11,11 @@
 }
 
 .main-nav-item {
-  max-width: 10rem;
+  max-width: 20rem;
   font-family: "ubuntu", sans-serif;
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
   margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
