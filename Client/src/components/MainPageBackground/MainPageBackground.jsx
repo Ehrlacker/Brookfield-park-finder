@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 import React from "react"
 import "./MainPageBackground.css"
-import Parkpic from "../../Assets/Videos/Park-pic.mp4"
+import Parkpic from "../../assets/Videos/Park-pic.mp4"
 
 const MainPageBackground = () => {
   return (
