@@ -22,6 +22,7 @@ function Search() {
     Axios.get(
       `https://developer.nps.gov/api/v1/parks?api_key=FcBVNSTUhHmVDsktfx7MkAgtGyTTnEqpCxMfaU8M&stateCode=${mainInputValue}`
     ).then((response) => {
+      console.log(response)
       if (mainInputValue.trim().length < 2) {
         return
       }
