@@ -4,17 +4,21 @@ import "./HomePageDirections.css"
 
 const HomePageDirections = (props) => {
   return (
-    <div className="HomePageDirections">
-      <div className="img-text-container">
+    <div className="homePageDirections w-full z-3 mb-20">
+      <div className="ImgTextContainer flex justify-center items-center flex-col w-full">
         <img
-          className="home-directions-img  w-full md:-w-50%"
+          className="homeDirectionsImg  max-w-[30rem] max-h-[50rem]"
           alt="A park"
           src={props.image}
         />
-        <div className="home-page-directions-text md:w-full h-full">
-          <h1 className="directions-h1">{props.title}</h1>
-          <p className="directions-p">{props.description}</p>
-          <button className="home-directions-button">
+        <div className="homePageDirectionsText md:w-full h-full text-white flex items-center justify-center flex-col z-1 p-8 max-w-[30rem] max-h-[20rem]">
+          <h1 className="directionsTitle text-center max-w-[30] max-h-[25] text-4xl">
+            {props.title}
+          </h1>
+          <p className="directionsParagrph text-3xl text-center max-w-[30] max-h-[25]">
+            {props.description}
+          </p>
+          <button className="home-directions-button text-xl mt-6 rounded-3xl border-solid border-2 border-white px-2">
             <Link to="/Search">Start here</Link>
           </button>
         </div>

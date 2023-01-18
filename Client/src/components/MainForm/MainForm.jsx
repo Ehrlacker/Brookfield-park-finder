@@ -2,7 +2,7 @@ import "./MainForm.css"
 
 const MainForm = (props) => {
   return (
-    <div className="main-form flex flex-col justify-center items-center ">
+    <div className="main-form flex flex-col justify-center items-center  w-full">
       <form className=" flex flex-col justify-center items-center mt-20">
         <label className="main-label ">Park Finder</label>
         <p className="main-form-description">

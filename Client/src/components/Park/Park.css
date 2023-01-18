@@ -1,35 +1,17 @@
-.Park {
-  transition: transform 0.2s;
-}
 
-.park-image {
-  height: 25rem;
-  width: 100%;
-}
-
-.park-title {
-  color: #283124;
-  font-size: 1.3rem;
-}
 
 .description-title,
 .park-description {
   font-family: "ubuntu", sans-serif;
 }
 
-.favoriteButton {
-  position: absolute;
-  left: 92%;
-}
 
-.park-button {
-  border: solid black 3px;
-  padding: 0.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-}
+
+
 
 @media (max-width: 575px) {
+
+
   .park-description,
   .description-title {
     display: none;
