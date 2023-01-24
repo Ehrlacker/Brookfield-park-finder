@@ -15,6 +15,7 @@ function Search() {
   const [parkSearch, setParkSearch] = useState([])
   const [mainInputValue, setMainInputValue] = useState("")
   const [favorites, setFavorites] = useLocalStorage("favorites", [])
+  const [searchClicked, setSearchClicked] = useState(false)
 
   const handleMainInputChange = (e) => {
     const newValue = e.target.value
@@ -41,6 +42,7 @@ function Search() {
     setMainInputValue("")
     e.preventDefault()
     setParkSearch([])
+    setSearchClicked(true)
   }
 
   const handleKeypress = (e) => {
@@ -89,7 +91,9 @@ function Search() {
         pressEnter={handleKeypress}
       />
       <div>
-        <h1 className="park-list-title mt-32">Featured Parks</h1>
+        <h1 className="park-list-title mt-32">
+          {searchClicked === false ? "Featured Parks" : "Your parks"}
+        </h1>
         <div className="flex w-full h-auto">
           <ChevronLeftIcon
             onClick={() => scroll(-300)}
@@ -126,7 +130,11 @@ function Search() {
           />
         </div>
 
-        <div>
+        <div
+          style={
+            favorites.length === 0 ? { display: "none" } : { display: "block" }
+          }
+        >
           <h1 className="park-list-title">Favorites</h1>
 
           <div className="flex w-full h-auto">

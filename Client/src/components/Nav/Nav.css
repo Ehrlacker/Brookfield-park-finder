@@ -1,10 +1,7 @@
 .Nav {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 99;
-  margin-top: 1.5rem;
-  max-height: 8rem;
+
+  /* margin-top: 1.5rem; */
+  /* max-height: 8rem; */
 }
 .nav-list {
   max-width: 25rem;
